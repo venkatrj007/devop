@@ -1,0 +1,23 @@
+# Create an array (list in Python)
+numbers = [10, 20, 30, 40, 50]
+
+# Access elements
+print("First element:", numbers[0])
+print("Last element:", numbers[-1])
+
+# Modify element
+numbers[2] = 35
+
+# Add elements
+numbers.append(60)
+
+# Remove elements
+numbers.remove(20)
+
+# Iterate through array
+print("Array elements:")
+for num in numbers:
+    print(num)
+
+# Length of array
+print("Length:", len(numbers))
